@@ -86,8 +86,8 @@ In your Appwrite function settings, add these variables:
 APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
 APPWRITE_PROJECT_ID=your_project_id_here
 APPWRITE_API_KEY=your_api_key_here
-OPENROUTER_API_KEY=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
-TELEGRAM_TOKEN=7737267928:AAHqSR3g9AV2PNPuuamoODbf6aIE4AxEOds
+OPENROUTER_API_KEY=xxx
+TELEGRAM_TOKEN=xxx
 USERS_COLLECTION_ID=your_users_collection_id
 SESSIONS_COLLECTION_ID=your_sessions_collection_id
 CHATS_COLLECTION_ID=your_chats_collection_id
