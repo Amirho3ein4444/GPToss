@@ -7,7 +7,7 @@ export async function generateAIResponse(messages, options = {}) {
   const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
   
   const payload = {
-    model: options.model || 'cognitivecomputations/dolphin-mistral-24b-venice-edition:free',
+    model: options.model || 'cognitivecomputations/dolphin3.0-mistral-24b:free',
     messages: messages,
     max_tokens: options.maxTokens || 500,
     temperature: options.temperature || 0.7,
