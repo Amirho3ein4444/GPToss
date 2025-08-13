@@ -7,7 +7,7 @@ export async function generateAIResponse(messages, options = {}) {
   const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
   
   const payload = {
-    model: options.model || 'openai/gpt-3.5-turbo',
+    model: options.model || 'cognitivecomputations/dolphin-mistral-24b-venice-edition:free',
     messages: messages,
     max_tokens: options.maxTokens || 500,
     temperature: options.temperature || 0.7,
