@@ -73,7 +73,7 @@ async function generateAIResponse(messages, log) {
         'X-Title': 'Telegram AI Chatbot'
       },
       body: JSON.stringify({
-        model: 'cognitivecomputations/dolphin3.0-mistral-24b:free',
+        model: 'deepseek/deepseek-chat-v3-0324:free',
         messages: messages,
         max_tokens: 500,
         temperature: 0.7
