@@ -226,8 +226,8 @@ Repeat for these files:
 APPWRITE_ENDPOINT = https://cloud.appwrite.io/v1
 APPWRITE_PROJECT_ID = [Your Project ID from Step 2]
 APPWRITE_API_KEY = [Create this below ⬇️]
-OPENROUTER_API_KEY = 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
-TELEGRAM_TOKEN = 7737267928:AAHqSR3g9AV2PNPuuamoODbf6aIE4AxEOds
+OPENROUTER_API_KEY = xxx
+TELEGRAM_TOKEN = xxx
 USERS_COLLECTION_ID = [Your Users Collection ID from Step 3]
 SESSIONS_COLLECTION_ID = [Your Sessions Collection ID from Step 3]
 CHATS_COLLECTION_ID = [Your Chats Collection ID from Step 3]
@@ -257,7 +257,7 @@ CHATS_COLLECTION_ID = [Your Chats Collection ID from Step 3]
    ```
    - **Example:**
    ```
-   https://api.telegram.org/bot7737267928:AAHqSR3g9AV2PNPuuamoODbf6aIE4AxEOds/setWebhook?url=https://67f6ead918e72f1f30f4.appwrite.global
+   https://api.telegram.org/botxxx/setWebhook?url=https://67f6ead918e72f1f30f4.appwrite.global
    ```
    - Press Enter
 
